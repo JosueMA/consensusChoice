@@ -10,7 +10,7 @@ Th experiment in which 30 participants each did 60 trials. Each trial had two op
 
 The data are plotted below, using the MATLAB script `plotData_2.m`. Each panel corresponds to a participant. The $x$-axis is the difference $\Delta v$, thet two lines correspond to the low $c=\frac{5}{6}$ and high $c=1$ majority, and the $y$-axis is the proportion of times the majority option was chosen.
 
-![data overview](figures/MistryLiljeholmExp1Data.png)
+![data overview](https://github.com/mdlee/consensusChoice/blob/master/figures/MistryLiljeholmExp1Data.png)
 
 There are clear individual differences in the pattern of choices made by the participants. One interpretation is that there are at least three qualitatively different sub-groups of participants
 * participants such as p1, p5, p8, p10, p17, among others, who show a characteristic  sigmoidal relationship between value difference and choice probabilities, consistent with  attending to the value difference
