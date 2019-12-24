@@ -1,0 +1,19 @@
+# consensus_1: softmax choice rule over values plus weighted consensus
+# independent individual w and tau for each subject
+model{
+  for (i in 1:nSubjects){
+    for (j in 1:nTrials){
+      # data
+      y[i, j] ~ dbern(theta[i, j])
+      # model
+      r[i, j, 1] = m[i, j, 1] + w[i]*c[i, j] # majority option
+      r[i, j, 2] = m[i, j, 2]			  # minority option
+      theta[i, j] = exp(tau[i]*r[i, j, 1]) / (exp(tau[i]*r[i, j, 1]) + exp(tau[i]*r[i, j, 2]))
+    }
+  }	
+  # priors
+  for (i in 1:nSubjects){
+    w[i] ~ dunif(0, 1)
+    tau[i] ~ dgamma(2, 1)
+  }
+}
