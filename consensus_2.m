@@ -1,4 +1,4 @@
-%% consensus_!
+%% consensus_2
 % one w and tau parameter for all subjects
 % uses PantoneSpring2015.mat; subplotArrange.m
 

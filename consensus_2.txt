@@ -1,4 +1,4 @@
-# consensus_1: softmax choice rule over values plus weighted consensus
+# consensus_2: softmax choice rule over values plus weighted consensus
 # independent individual w and tau for each subject
 model{
   for (i in 1:nSubjects){

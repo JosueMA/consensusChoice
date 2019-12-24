@@ -1,4 +1,4 @@
-%% consensus_!
+%% consensus_3
 % hierarchical latent mixture model with baserate
 % uses PantoneSpring2015.mat
 

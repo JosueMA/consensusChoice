@@ -1,6 +1,6 @@
-%% consensus_!
+%% consensus_2b
 % one w and tau parameter for all subjects, product space BF version
-% uses PantoneSpring2015.mat; subplotArrange.m
+% uses PantoneSpring2015.mat
 
 clear; close all;
 
